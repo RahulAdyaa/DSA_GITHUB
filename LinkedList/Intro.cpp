@@ -2,7 +2,7 @@
 using namespace std;
 class Node{
     public:
-    int data;
+    int data; //variable declaration
     Node* next;
 
     public:
