@@ -21,7 +21,7 @@ Node* ConvertArrToLL(vector<int>arr){
     for(int i=1;i<arr.size();i++){
         Node* temp=new Node(arr[i]);
         mover->next=temp; // mover's next is temp 
-        mover=mover->next; //mover moves
+        mover=mover->next; 
     }
     return head;
 }
@@ -62,5 +62,5 @@ int main(){
         cout<<temp->data<<" ";
         temp=temp->next;
     }
-    cout<<endl;
+    cout<<endl; 
 }
