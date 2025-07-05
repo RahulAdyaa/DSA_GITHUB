@@ -20,8 +20,8 @@ Node* ConvertArrToLL(vector<int>arr){
     Node* mover=head;
     for(int i=1;i<arr.size();i++){
         Node* temp=new Node(arr[i]);
-        mover->next=temp;
-        mover=mover->next;
+        mover->next=temp; // mover's next is temp 
+        mover=mover->next; //mover moves
     }
     return head;
 }
