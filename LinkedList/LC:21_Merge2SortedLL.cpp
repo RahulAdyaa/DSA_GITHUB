@@ -24,6 +24,7 @@ public:
                 temp=list2;
                 list2=list2->next;
             }
+            
         }
         if(list1) temp->next=list1;
         else temp->next=list2;
