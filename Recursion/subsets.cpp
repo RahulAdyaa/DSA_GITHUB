@@ -11,8 +11,8 @@ void subsets(int idx, int arr[], int n, vector<int>& ds, vector<vector<int>>& an
     }
 
     // Include the current element in the subset
-    ds.push_back(arr[idx]);
     subsets(idx + 1, arr, n, ds, ans);
+    ds.push_back(arr[idx]);
 
     // Exclude the current element from the subset (backtrack)
     ds.pop_back();
