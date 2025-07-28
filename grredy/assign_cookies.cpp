@@ -44,4 +44,5 @@ int main(){
     vector<int>greed = {12, 6, 3, 4, 5};
     vector<int>size = {12, 1, 4, 5};
     cout << solve(greed, size);  // Output: 3
+    
 }
